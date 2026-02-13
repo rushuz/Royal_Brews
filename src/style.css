@@ -21,7 +21,7 @@ html {
   scroll-behavior: smooth;
 }
 
-   /* GOLD PART */
+  /* gold wala part */
 
 .text-gold { color: var(--gold) !important; }
 .bg-gold { background-color: var(--gold) !important; }
@@ -153,9 +153,8 @@ html {
 
 
 
-/* ===============================
-   HERO CAROUSEL
-=================================*/
+  /* carosel */
+
 .carousel-item img {
   height: 90vh;
   object-fit: cover;
@@ -173,9 +172,7 @@ html {
   color: #fff;
 }
 
-/* ===============================
-   AUTHENTICATION MODAL
-=================================*/
+  /* auth */
 
 .modal-content label,
 .modal-content .form-label {
@@ -217,9 +214,8 @@ html {
   opacity: 0.7;
 }
 
-/* ===============================
-   AGE GATE (UNCHANGED STYLE)
-=================================*/
+  /* age gate */
+
 #age-gate {
   position: fixed;
   top: 0;
@@ -241,9 +237,8 @@ html {
   background: rgba(0,0,0,0.7);
 }
 
-/* ===============================
-   ABOUT / PUZZLE (UNCHANGED)
-=================================*/
+  /* puzzle */
+
 .puzzle-container {
   width: 360px;
   height: 360px;
@@ -274,9 +269,6 @@ html {
   border-color: var(--gold);
 }
 
-/* ===============================
-   TESTIMONIALS
-=================================*/
 .testimonial-content i.bi-quote {
   position: absolute;
   top: -20px;
@@ -286,9 +278,8 @@ html {
   opacity: 0.1;
 }
 
-/* ===============================
-   CONTACT
-=================================*/
+  /* contact */
+
 .contact-icon-box {
   width: 45px;
   height: 45px;
@@ -300,9 +291,7 @@ html {
   justify-content: center;
 }
 
-/* ===============================
-   SOCIAL ICONS
-=================================*/
+  /* icons */
 .social-link {
   width: 60px;
   height: 60px;
@@ -321,9 +310,8 @@ html {
   transform: translateY(-8px);
 }
 
-/* ===============================
-   FEEDBACK
-=================================*/
+  /* feedback */
+
 .custom-input {
   border: 1px solid var(--border-light) !important;
   border-radius: 8px;
@@ -334,9 +322,8 @@ html {
   box-shadow: 0 0 8px rgba(123,17,38,0.3) !important;
 }
 
-/* ===============================
-   FOOTER
-=================================*/
+  /* footer */
+
 .footer-links a {
   color: var(--text-muted);
   text-decoration: none;
@@ -380,9 +367,9 @@ html {
 }
 
 
-/* ===============================
-   SCROLLBAR
-=================================*/
+
+   /* SCROLLBAR */
+
 ::-webkit-scrollbar {
   width: 10px;
 }
