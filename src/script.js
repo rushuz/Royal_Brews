@@ -1,3 +1,9 @@
+window.addEventListener("scroll", function () {
+  document.querySelector(".navbar")
+    .classList.toggle("scrolled", window.scrollY > 50);
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
     // --- 1. Element Selectors ---
     const ageGate = document.getElementById('age-gate');

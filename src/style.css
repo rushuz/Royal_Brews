@@ -54,56 +54,60 @@ html {
    /* NAVBAR */
 
 .navbar {
-  background-color: #ffbebe !important;
+  background-color: #ffffff !important;
   border-bottom: 1px solid var(--border-light);
-   padding-top: 6px !important;
-  padding-bottom: 6px !important;
+  padding-top: 6px;
+  padding-bottom: 6px;
   min-height: 60px;
+  transition: all 0.4s ease;
 }
 
-.navbar-brand {
-  color: var(--wine-red) !important;
-  font-weight: 700;
-  letter-spacing: 1px;
-
-}
-
+/* Default link colors */
+.navbar .nav-link,
+.navbar .navbar-brand,
 .navbar .bi {
-  transition: 0.3s ease;
-}
-
-.navbar .bi:hover {
-  color: #7b1126;
-}
-
-.nav-link {
   color: var(--text-dark) !important;
-  font-weight: 500;
-  transition: 0.3s ease;
 }
 
-.nav-link:hover {
-  color: var(--wine-red) !important;
+/* ===== Home Page Transparent Navbar ===== */
+.home-page .navbar {
+  background: transparent !important;
+  border-bottom: none;
 }
 
-#cart-count {
-  background-color: var(--wine-red) !important;
+.home-page .navbar .nav-link,
+.home-page .navbar .navbar-brand,
+.home-page .navbar .bi {
   color: #fff !important;
-  font-size: 0.7rem;
-  font-weight: bold;
+}
+
+/* Scroll effect only on home */
+.home-page .navbar.scrolled {
+  background: rgba(0,0,0,0.85) !important;
+  backdrop-filter: blur(10px);
+}
+
+
+/* Hover effect */
+.nav-link:hover {
+  color: #c5a059 !important;
 }
 
    /* DROPDOWN */
 
 .dropdown-menu {
-  background-color: #ffbebe;
+  background: transparent !important;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  min-height: 60px;
+  transition: all 0.4s ease;
   border: 1px solid var(--border-light);
   border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 .dropdown-item {
-  color: var(--text-dark);
+  color: white;
   transition: 0.3s ease;
 }
 
